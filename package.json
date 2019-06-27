@@ -1,0 +1,31 @@
+{
+  "name": "cermati-com-front-end-developer-entry-test",
+  "version": "1.0.0",
+  "description": "Cremati.com Front-End Developer Entry Test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [
+    "html",
+    "javascript",
+    "css",
+    "scss",
+    "webpack",
+    "mix"
+  ],
+  "author": "Gregorius Andito Herjuno",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^4.0.16",
+    "laravel-mix-pug": "^0.3.0",
+    "pug": "^2.0.4",
+    "resolve-url-loader": "^2.3.1",
+    "sass": "^1.21.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

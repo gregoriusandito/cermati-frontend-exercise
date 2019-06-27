@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+// I: Hero 
+
+.site-hero {
+    background: #004a75 url('../img/work-desk__dustin-lee.jpg') center center no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    position: relative;    
+}
+
+.hero-container {
+    padding: 10px 20px;
+    position: relative;
+}
+
+.hero-logo {
+    width: 30px;
+}
+
+.hero-text-container {
+    padding: 100px 80px 120px 80px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-first-header {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 8px 0;
+}
+
+.hero-second-header {
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+.hero-description {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.hero-description-container {
+    padding-top: 4px;
+}
+
+.hero-contact-button-container {
+    padding-top: 30px;
+}
+
+.hero-contact-button {
+    border: solid 1px #fff;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.2s ease-out;
+    
+    &:hover {
+        color: #004a75;
+        background-color: #fff;
+    }
+}
