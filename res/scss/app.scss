@@ -1,6 +1,15 @@
+// Critical Styles
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;    
 }
 
 // I: Hero 
@@ -66,4 +75,17 @@ body {
         color: #004a75;
         background-color: #fff;
     }
+}
+
+// II: Highlights
+// I'll check you later, dude
+
+// III: Footer
+
+footer {
+    padding: 20px 0;
+    font-size: 10px;
+    color: #768294;
+    text-align: center;
+    background-color: #050328;
 }
