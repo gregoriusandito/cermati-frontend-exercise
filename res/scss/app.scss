@@ -78,7 +78,94 @@ body {
 }
 
 // II: Highlights
-// I'll check you later, dude
+
+.site-highlights {
+    background-color: #e5e5e5;
+    padding: 50px 20px;
+}
+
+.highlights-intro {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.highlights-header {
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+.highlights-intro-desc {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.highlights-content-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.highlights-container {
+    border: solid 0.5px #bbb;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+    
+    // the grid
+    flex-basis: 32%;
+    -ms-flex: auto;
+    position: relative;
+    box-sizing: border-box;
+    
+    h4 {
+        font-size: 18px;
+        margin: 0;
+        font-weight: 300;
+    }
+    
+    p {
+        font-size: 14px;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+}
+
+.highlights-fontawesome {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    font-size: 20px;
+    color: #ababab;
+}
+
+@media (max-width: 960px) {
+    .highlights-container {
+        flex-basis: 49%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text-container {
+        padding: 80px 20px;
+    }
+
+    // .site-highlights {
+    //     padding: 50px 40px;
+    // }
+    
+    .highlights-container {
+        flex-basis: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+}
+
 
 // III: Footer
 

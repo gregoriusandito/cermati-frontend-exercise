@@ -20,6 +20,7 @@
   "author": "Gregorius Andito Herjuno",
   "license": "ISC",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
     "laravel-mix": "^4.0.16",
     "laravel-mix-pug": "^0.3.0",
     "pug": "^2.0.4",
